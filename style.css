@@ -1,0 +1,58 @@
+body {
+  font-family: "Times New Roman", serif;
+  background-color: lightblue;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+.jogo {
+  background-color: white;
+  border: 3px solid black;
+  padding: 20px;
+  width: 90%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: darkblue;
+  text-decoration: underline;
+}
+
+.dica {
+  color: gray;
+}
+
+#palavra {
+  font-size: 2rem;
+  letter-spacing: 8px;
+  margin: 20px 0;
+  word-break: break-all;
+}
+
+input {
+  width: 40px;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+button {
+  margin: 5px;
+  cursor: pointer;
+}
+
+#mensagem {
+  min-height: 1.5em;
+  font-weight: bold;
+}
+
+#mensagem.acerto { color: green; }
+#mensagem.erro { color: red; }
+
+.placar {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  border-top: 1px solid black;
+  padding-top: 10px;
+}
